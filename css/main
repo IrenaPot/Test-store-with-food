@@ -1,0 +1,19 @@
+.manufacture__image {
+    width: 200px;
+    border-color: rgb(242, 204, 129);
+    border-width: 2px;
+    border-radius: 50%;
+
+}
+.shipping__image {
+    width: 180px;
+    border-color: rgb(242, 204, 129);
+    border-width: 2px;
+    border-radius: 50%;
+}
+.packaging__image {
+    width: 120px;
+    border-color: rgb(242, 204, 129);
+    border-width: 2px;
+    border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+.header__banner {
+    display: block;
+    width: 100%;
+    opacity: 0.16;
+    position: relative;
+}
+.header__logo {
+    display: block;
+    width: 170px;
+    float: left;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+}
+
+.header__menu {
+    text-decoration: none;
+    font-size: x-large;
+    float: right;
+    position: relative;
+    bottom: 380px;
+    right: 100px;
+}
+.header__menu__item {
+    padding: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+a {
+   color: #501a04ea;
+}
+a:hover {
+    color: red;
+    text-decoration:underline;
+}
+a:active {
+    font-optical-sizing: 10%;
+}
