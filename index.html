@@ -10,37 +10,83 @@
 
 <body>
     <header id="header">
-        <div class="header_banner">
+        <div class="header__banner">
             <img src="img/coffeebeans-1500x500.png" alt="Coffee beans falling from top to bottom">
         </div>
-        <nav class="header_nav">
-            <div class="header_logo">
+        <nav class="header__nav">
+            <div class="header__logo">
                 <a href="#home"><img width="70" src="img/toppng.com-coffee-logo-656x1110.png"
                         alt="Cap of coffe and the company name - It's coffee time"></a>
             </div>
-            <div class="header_menu">
-                <a href="#general" class="header_menu_item">General</a>
-                <a href="#products" class="header_menu_item">Products</a>
-                <a href="#Contacts" class="header_menu_item">Contacts</a>
+            <div class="header__menu">
+                <a href="#general" class="header__menu__item">General</a>
+                <a href="#products" class="header__menu__item">Products</a>
+                <a href="#contacts" class="header__menu__item">Contacts</a>
             </div>
         </nav>
-        
+
     </header>
     <main>
-        <div class="section_subscription">
-            <h1 class="section_subscription_title">Coffee that inspires</h1>
-            <p class="section_subscription_slogan">Good coffee can solve all problems... Take your time and have a cup
+        <div class="block__subscription">
+            <h1 class="block__subscription_title">Coffee that inspires</h1>
+            <p class="block_subscription_slogan">Good coffee can solve all problems... Take your time and have a cup
                 of coffee</p>
-            <form action="submit">
-                <input class="submit_form" type="text" placeholder="Enter your email" required><br>
-                <button class="submit_button">Subscribe</button>
+            <form action="block__subscription__submit submit">
+                <input class="submit__form" type="text" placeholder="Enter your email" required><br>
+                <button class="submit__button">Subscribe</button>
             </form>
         </div>
-        <div class="block_general">
-            <div class="block_general manufacture">
-                <img class="manufacture_image" width="120" src="img/coffee-whole-bean-bag.png" alt="The bag full with coffee">
-                <h2 class="manufacture_title">Verified manufacturers</h2>
-                <p class="manufacture_description">We only work with the best coffee producers in Colombia, Peru and India. Here you will find the best aroma and exquisite taste of coffee.</p>
+        <div class="block__general">
+            <div class="block__general manufacture">
+                <img class="manufacture__image" width="120" src="img/coffee-whole-bean-bag.png"
+                    alt="The bag full with coffee">
+                <h2 class="manufacture__title">Verified manufacturers!</h2>
+                <p class="manufacture__description">We only work with the best coffee producers in Colombia, Ephiopia
+                    and
+                    India. Here you will find the best aroma and exquisite taste of coffee.</p>
+            </div>
+            <div class="block__general shipping">
+                <img class="shipping__image" width="120" src="img/coffee-shipping.png"
+                    alt="Two coffee beans with a green leaf">
+                <h2 class="shipping__title">Fast Shipping!</h2>
+                <p class="shipping__descroption">We provide fast shipping from any part of the world. The whole way from
+                    the manufacturers to the client take up to 10 days!</p>
+            </div>
+            <div class="block__general packaging">
+                <img class="packaging__image" width="120" src="img/coffee-package.png" alt="Paper bag with coffe">
+                <h2 class="packaging__title">Craft packaging!</h2>
+                <p class="packaging__description">You can order the craft packages for your bisness.</p>
+            </div>
+        </div>
+        <div class="products">
+            <div class="products__big">
+                <img class="products__big__background" width="200" src="img/background-coffee-beans-3168x1416.png"
+                    alt="Spilled coffee beans.">
+                <h3 class="products__big__name">Big packaging</h3>
+                <p class="products__big__price">500$</p>
+                <p class="products__big__description">Order the big package and recive the lowest price per one kilo.
+                    Weight - 20 kilo.</p>
+                <button class="products__big__select">Select</button>
+            </div>
+            <div class="products__middle">
+                <img class="products__middle__background" width="200" src="img/background-coffee-beans-3168x1416.png"
+                    alt="Spilled coffee beans.">
+                <h3 class="products__middle__name">Middle packaging</h3>
+                <p class="products__middle__price">300$</p>
+                <p class="products__big__description">Order the big package and recive the lowest price per one kilo.
+                    Weight - 10 kilo.</p>
+                <button class="products__middle__select">Select</button>
+
+            </div>
+            <div class="products__small">
+                <img class="products__small__background" width="200" src="img/background-coffee-beans-3168x1416.png"
+                    alt="Spilled coffee beans.">
+                <h3 class="products__small__name">Small packaging</h3>
+                <p class="products__small__price">100$</p>
+                <p class="products__small__description">Order the big package and recive the lowest price per one kilo.
+                    Weight - 3 kilo.</p>
+                <button class="products__small__select">Select</button>
+
             </div>
         </div>
     </main>
