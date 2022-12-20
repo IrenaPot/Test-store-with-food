@@ -1,39 +1,41 @@
-.header__banner {
-    display: block;
-    width: 100%;
-    opacity: 0.16;
-    position: relative;
+.header__nav {
+    background-image: url(../img/coffeebeans-1500x500.png);
+    background-position: 323% 70%;
+    background-color: transparent;
+}
+.header__nav {
+    padding: 5px;
 }
 .header__logo {
-    display: block;
-    width: 170px;
-    float: left;
-    position: relative;
-    bottom: 400px;
-    left: 50px;
+    display: flex;
+    background-color: var(--bg-color);
+    width: 55px;
 }
-
 .header__menu {
-    text-decoration: none;
-    font-size: x-large;
-    float: right;
-    position: relative;
-    bottom: 380px;
-    right: 100px;
+    font-size: 0.8rem;
+    font-size: bold;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end
 }
 .header__menu__item {
-    padding: 30px;
-    font-style: italic;
-    font-weight: 900;
+    color: var(--main-text-color);
+    text-decoration: none;
+    background-color: var(--bg-color);
 }
-
-a {
-   color: #501a04ea;
+.header__menu__item:hover {
+    text-decoration: underline;
 }
-a:hover {
-    color: red;
-    text-decoration:underline;
-}
-a:active {
-    font-optical-sizing: 10%;
+@media (min-width: 500px) {
+    .header__nav {
+        display:flex;
+    }
+    .header__menu {
+        flex-direction: row;
+        align-items: center;
+        flex: 1;
+        justify-content: space-evenly;
+    }
 }

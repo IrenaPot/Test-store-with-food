@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 
 }
 :root {
+    font-family: 'Vollkorn', serif;
     --main-text-color: rgb(48, 13, 2);
+    --bg-color: rgba(247, 233, 169, 0.721);
 }
 img {
     display: block;
     width: 100%;
+}
+.container {
+    max-width: 980px;
+    margin: auto;
 }
